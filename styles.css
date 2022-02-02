@@ -42,7 +42,11 @@ li {
 
 
 img {
-    width: 225px;
+    width: 220px;
+    border-color:#3882F6;
+    border-style:inset;
+    border-radius: 20px;
+    padding: 5px;
 }
 
 
@@ -90,10 +94,11 @@ img {
     background-color: #3882F6;
     font-size: 18px;
     color: white;
-    font-weight: 500;
-    padding: 4px;
+    font-weight: 600;
+    padding: 4px 25px;
     border-radius: 8px;
     margin-top: 25px;
+    border-color: white;
 }
 
 .text {
@@ -109,6 +114,50 @@ img {
     padding: 150px;
 }
 
-img .footer-logo {
-    width: 10px;
+
+.cta {
+    background-color:#3882F6;
+    color: white;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.cta-left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+
+
+#thing {
+    margin-top: -15px;
+}
+
+.cta-right {
+    display: flex;
+}
+
+
+.footer-logo img {
+    width: 75px;
+    border: 0px;
+}
+
+
+.footer {
+    padding: 20px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.header img {
+    border: 0px;
+    width: 300px;
 }
